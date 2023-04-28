@@ -5,15 +5,28 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script type="text/javascript" src="/script.js"></script>
+    <link rel="stylesheet" href="style.css">
     <title>Encriptador</title>
     
 </head>
 <body>
-    <input type="text" id="textoCifrado">
-    <textarea name="result" id="textoDescifrado" cols="30" rows="10"></textarea>
-    <button type="button" id="botonEncriptar" onclick="cifrar()">Encriptar</button>
-    <button type="button" id="botonDesencriptar" onclick="descifrar()">Desencriptar</button>
-    <button type="button" id="botonCopiar" onclick="copiar()">Copiar</button>
+    <Header>
+        <img src="/media/Logo.png" alt="">
+    </Header>
+    <main>
+        <section class="seccion1">
+            <input type="text" class="textInput" id="textoCifrado" value="Ingrese su texto"></input>
+            <div class="recomendacion"></div>
+            <div class="botones">
+                <input type="button" value="Encriptar" class="btnEncriptar">
+                <input type="button" value="Desencriptar" class="btnDesencriptar">
+            </div>
+        </section>
+        <section class="seccion2">sec2</section>
+    </main>
+    <footer>
+        <p>RETO NÚMERO 1 | ENCRIPTADOR | MATEO JAVIER CABRERA CEDEÑO</p>
+    </footer>
 </body>
 <script>
 </script>
