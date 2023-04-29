@@ -18,14 +18,14 @@
             <input type="text" class="textInput" id="textoCifrado" value="Ingrese su texto"></input>
             <div class="recomendacion"></div>
             <div class="botones1">
-                <input type="button" value="Encriptar" class="btnEncriptar">
-                <input type="button" value="Desencriptar" class="btnDesencriptar">
+                <input type="button" value="Encriptar" class="btnEncriptar" onclick="cifrar()">
+                <input type="button" value="Desencriptar" class="btnDesencriptar" onclick="descifrar()">
             </div>
         </section>
         <section class="seccion2">
             <div class="caja">
-                <textarea class="textDisplay" id="textoDescifrado"></textarea>
-                <input type="button" value="Copiar" class="btnCopiar">
+                <textarea class="textDisplay" id="textoDescifrado">Resultado</textarea>
+                <input type="button" value="Copiar" class="btnCopiar" onclick="copiar()">
             </div>
         </section>
     </main>
