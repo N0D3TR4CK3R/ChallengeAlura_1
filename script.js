@@ -25,7 +25,7 @@ function descifrar () {
 }
 
 function copiar () {
-
+    //A
     var text = document.querySelector("#textoDescifrado");
     text.select();
     document.execCommand("copy");
